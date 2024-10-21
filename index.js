@@ -7,7 +7,7 @@ const newItem = document.createElement("h1")
 newItem.innerText = "DateMyAge"
 document.body.appendChild(newItem)
 
-
+document.querySelector("h1").innerHTML="Connecting 60's Dating Site"
 
 
 
