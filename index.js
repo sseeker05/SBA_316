@@ -42,6 +42,10 @@ e.preventDefault()
     return false;
   }
 }
-
-
 form.addEventListener("submit",validateForm)
+
+const btn = document.getElementById("sign-in")
+function signIn(e) {
+  window.alert("welcome")
+}
+btn.addEventListener("click", signIn)
