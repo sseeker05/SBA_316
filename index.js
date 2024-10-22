@@ -41,8 +41,7 @@ e.preventDefault()
     alert("Age must be filled out");
     return false;
   }
-
-  
 }
 
 
+form.addEventListener("submit",validateForm)
